@@ -1,0 +1,50 @@
+.list-unstyled > li {
+  padding: 10px;
+}
+
+.list-unstyled > li::hover {
+  padding: 10px;
+}
+
+.list-item:hover {
+  user-select: none;
+  cursor: pointer;
+  background-color: #e3f1c6;
+  border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #4568b9;
+}
+
+html {
+  overflow: auto;
+}
+a {
+  text-decoration:none; color:#4b68b9
+}
+.active {
+  background-color: #e3f1c6;
+}
+/* 
+
+iframe {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  border: none;
+} 
+iframe > div {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  border: none;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+} */
